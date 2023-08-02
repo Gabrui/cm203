@@ -1,0 +1,13 @@
+version: '3'
+services:
+  jupyter:
+    build:
+      context: ./
+      dockerfile: ./cm203-cpu/Dockerfile
+    ports:
+      - "8888:8888"
+    volumes:
+      - "./notebooks/:/project"
+      - "./content/:/content"
+    shm_size: '2gb'
+    image: gabrui/cm203-cpu:v0.1.lab01

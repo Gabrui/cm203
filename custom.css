@@ -1,0 +1,10 @@
+/* Make the notebook cells take almost all available width */
+.container {
+    width: 99% !important;
+}   
+
+/* Prevent the edit cell highlight box from getting clipped;
+ * important so that it also works when cell is in edit mode*/
+div.cell.selected {
+    border-left-width: 1px !important;
+}

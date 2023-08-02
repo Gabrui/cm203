@@ -1,0 +1,18 @@
+FROM python:3.10.12-bookworm
+
+COPY common_install.sh /common_install.sh
+RUN /bin/bash /common_install.sh
+
+RUN pip3 install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cpu && \
+    pip3 install fastai==2.7.12
+RUN pip3 install -U Pillow==9.4.0
+
+#RUN useradd -ms /bin/bash jupyter
+#USER jupyter
+ADD custom.css /root/.jupyter/custom/
+
+ENV TORCH_HOME="/content/torch_home"
+ENV FASTAI_HOME="/content/fastai_home"
+
+WORKDIR /project
+CMD ["jupyter", "notebook","--ip=0.0.0.0","--no-browser","--allow-root"]
