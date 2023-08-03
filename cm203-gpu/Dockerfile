@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/pytorch:23.07-py3
+FROM nvcr.io/nvidia/pytorch:23.03-py3
 
 # RUN pip3 install jupyter-contrib-nbextensions==0.7.0 && pip3 install nbgrader==0.8.1 \
 #     jupyter nbextension install --sys-prefix --py nbgrader --overwrite && \
@@ -19,7 +19,9 @@ FROM nvcr.io/nvidia/pytorch:23.07-py3
 #RUN useradd -ms /bin/bash jupyter
 #USER jupyter
 
-RUN pip3 install -U notebook==6.4.12
+#RUN pip3 install -U notebook==6.4.12
+RUN rm -rf /usr/local/etc/jupyter && pip3 uninstall -y jupytext
+ENV DEBIAN_FRONTEND=noninteractive 
 COPY common_install.sh /common_install.sh
 RUN /bin/bash /common_install.sh
 
