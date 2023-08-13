@@ -2,6 +2,26 @@
 
 Materiais de apoio para o curso de Introdução à Visão Computacional, Prof. Marcos Máximo e Gabriel Melo
 
+## Aulas
+
+[Aula 1 - Introdução a Visão Computacional](https://docs.google.com/presentation/d/1PYRArTIBh9vQ5r7DvEwGgbZp8FCkrwZnkQuFZ-z-snc/)
+
+[Aula 2 - Redes Neurais Artificiais](https://docs.google.com/presentation/d/1Dpc-qkhuK5CSAl2MugB-D8tHyDn1l6ef5Ntw-eC49ms/)
+
+## Laboratórios
+
+Estão na pasta `notebooks`.
+
+[Laboratório 1 - Operações Básicas com Imagem e Classificação básica](notebooks/intro_lab01/intro_lab01.ipynb)
+
+[Laboratório 2 - nanoGrad: Automatic Gradient Backpropagation](notebooks/nanograd_lab02/nanograd_lab02.ipynb)
+
+They can be downloaded and executed locally with our docker containers (which run Jupyter Notebooks classic) or open in Google Colab in the browser.
+
+The notebooks should be submitted to the Google Classroom assignment and are graded in two steps: automatic code execution with assert checking and manual code review with teacher's comments. The feedback is generated as an html page with the notebooks' outputs and the comments made by the teacher.
+
+## Docker
+
 Para executar, o contêiner, utilize o docker compose (dentro desta pasta):
 
 ```
