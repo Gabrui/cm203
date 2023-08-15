@@ -8,6 +8,8 @@ Materiais de apoio para o curso de Introdução à Visão Computacional, Prof. M
 
 [Aula 2 - Redes Neurais Artificiais](https://docs.google.com/presentation/d/1Dpc-qkhuK5CSAl2MugB-D8tHyDn1l6ef5Ntw-eC49ms/)
 
+[Aula 3 - Deep Learning](https://docs.google.com/presentation/d/1pbXPJvpGoDK03KsazRf3D99-FXNd2FLcXpIVPl797PA/)
+
 ## Laboratórios
 
 Estão na pasta `notebooks`.
@@ -15,6 +17,8 @@ Estão na pasta `notebooks`.
 [Laboratório 1 - Operações Básicas com Imagem e Classificação básica](notebooks/intro_lab01/intro_lab01.ipynb)
 
 [Laboratório 2 - nanoGrad: Automatic Gradient Backpropagation](notebooks/nanograd_lab02/nanograd_lab02.ipynb)
+
+[Laboratório 3 - NeRFs: Neura Radiance Fields]()
 
 They can be downloaded and executed locally with our docker containers (which run Jupyter Notebooks classic) or open in Google Colab in the browser.
 
@@ -24,7 +28,7 @@ The notebooks should be submitted to the Google Classroom assignment and are gra
 
 Para executar, o contêiner, utilize o docker compose (dentro desta pasta):
 
-```
+```bash
 docker compose -f jupytercpu.yml up
 ```
 
@@ -32,15 +36,21 @@ docker compose -f jupytercpu.yml up
 
 É necessário ter instalado o [docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
 
-```
+```bash
 curl https://get.docker.com | sh && sudo systemctl --now enable docker
+```
+
+OBS: para executar o docker o seu usuário deve estar no grupo docker ou se root (relogue depois do seguinte comando):
+
+```bash
+sudo usermod -aG docker $(whoami)
 ```
 
 ### Docker com GPU Nvidia
 
 Você já deve ter o driver da nvidia instalado em sua máquina (host) `sudo apt-get install nvidia-driver-525` (use a versão igual ou superior à 525), assim seguimos as [instruções](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#installing-on-ubuntu-and-debian):
 
-```
+```bash
 distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
   	&& curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
   	&& curl -s -L https://nvidia.github.io/libnvidia-container/$distribution/libnvidia-container.list | \
