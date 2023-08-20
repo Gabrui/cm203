@@ -18,7 +18,7 @@ Estão na pasta `notebooks`.
 
 [Laboratório 2 - nanoGrad: Automatic Gradient Backpropagation](notebooks/nanograd_lab02/nanograd_lab02.ipynb)
 
-[Laboratório 3 - NeRFs: Neura Radiance Fields]()
+[Laboratório 3 - NeRFs: Neura Radiance Fields](notebooks/nerfs_lab03/nerfs_lab03.ipynb)
 
 They can be downloaded and executed locally with our docker containers (which run Jupyter Notebooks classic) or open in Google Colab in the browser.
 

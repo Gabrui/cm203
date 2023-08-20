@@ -4,7 +4,7 @@ COPY common_install.sh /common_install.sh
 RUN /bin/bash /common_install.sh
 
 RUN pip3 install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cpu && \
-    pip3 install fastai==2.7.12
+    pip3 install fastai==2.7.12 opencv-contrib-python-headless==4.8.0.76
 RUN pip3 install -U Pillow==9.4.0
 RUN apt install graphviz -y && pip3 install graphviz==0.20.1
 

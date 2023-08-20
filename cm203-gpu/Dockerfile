@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/pytorch:23.03-py3
+FROM nvcr.io/nvidia/pytorch:23.06-py3
 
 # RUN pip3 install jupyter-contrib-nbextensions==0.7.0 && pip3 install nbgrader==0.8.1 \
 #     jupyter nbextension install --sys-prefix --py nbgrader --overwrite && \
