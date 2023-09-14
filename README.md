@@ -10,6 +10,14 @@ Materiais de apoio para o curso de Introdução à Visão Computacional, Prof. M
 
 [Aula 3 - Deep Learning](https://docs.google.com/presentation/d/1pbXPJvpGoDK03KsazRf3D99-FXNd2FLcXpIVPl797PA/)
 
+[Aula 4 - Visão Clássica: Filtros](https://docs.google.com/presentation/d/1gLFN-15tXYV5eUhJzMY9fo4iyvAkqLbi/)
+
+[Aula 5 - CNNs: Redes Neurais Convolucionais](https://docs.google.com/presentation/d/1HbLq7rk3G86uxWc2l4l9wopyxlrhsLxrWq-vyIzMJa8/)
+
+[Aula 6 - Detecção de Objetos](https://docs.google.com/presentation/d/1OecOBg2EmgVLgaWuz-uM9jCxoKs7FgprZgkomiQCGuE/)
+
+[Aula 7 - Detecção de Objetos Avançada](https://docs.google.com/presentation/d/14BFrPhWrB6xghCgAFB-1g_wTYJhDGWyGEpmyydZBvdw/)
+
 ## Laboratórios
 
 Estão na pasta `notebooks`.
@@ -18,7 +26,11 @@ Estão na pasta `notebooks`.
 
 [Laboratório 2 - nanoGrad: Automatic Gradient Backpropagation](notebooks/nanograd_lab02/nanograd_lab02.ipynb)
 
-[Laboratório 3 - NeRFs: Neura Radiance Fields](notebooks/nerfs_lab03/nerfs_lab03.ipynb)
+[Laboratório 3 - NeRFs: Neural Radiance Fields](notebooks/nerfs_lab03/nerfs_lab03.ipynb)
+
+[Laboratório 4 - Image Processing: Convolutions](notebooks/processing_lab04/processing_lab04.ipynb)
+
+[Laboratório 5 - CNNs: Implementing a FastAI like interface](notebooks/cnns_lab05/cnns_lab05.ipynb)
 
 They can be downloaded and executed locally with our docker containers (which run Jupyter Notebooks classic) or open in Google Colab in the browser.
 
