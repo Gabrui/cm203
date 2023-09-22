@@ -10,7 +10,7 @@ services:
       - "./notebooks/:/project"
       - "./content/:/content"
     shm_size: '2gb'
-    image: gabrui/cm203-gpu:v0.1.lab03
+    image: gabrui/cm203-gpu:v0.1.lab06
     deploy:
       resources:
         reservations:

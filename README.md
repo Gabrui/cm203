@@ -18,6 +18,8 @@ Materiais de apoio para o curso de Introdução à Visão Computacional, Prof. M
 
 [Aula 7 - Detecção de Objetos Avançada](https://docs.google.com/presentation/d/14BFrPhWrB6xghCgAFB-1g_wTYJhDGWyGEpmyydZBvdw/)
 
+[Revisão](https://docs.google.com/presentation/d/1cxjmg-13qrDR7ehXTNmornHSJIHdGzcbg2lyGUIgdhs/)
+
 ## Laboratórios
 
 Estão na pasta `notebooks`.
@@ -31,6 +33,8 @@ Estão na pasta `notebooks`.
 [Laboratório 4 - Image Processing: Convolutions](notebooks/processing_lab04/processing_lab04.ipynb)
 
 [Laboratório 5 - CNNs: Implementing a FastAI like interface](notebooks/cnns_lab05/cnns_lab05.ipynb)
+
+[Laboratório 6 - nanoYOLO: Our very own nano YOLO](notebooks/yolo_lab06/yolo_lab06.ipynb)
 
 They can be downloaded and executed locally with our docker containers (which run Jupyter Notebooks classic) or open in Google Colab in the browser.
 
