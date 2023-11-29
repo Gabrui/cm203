@@ -20,6 +20,20 @@ Materiais de apoio para o curso de Introdução à Visão Computacional, Prof. M
 
 [Revisão](https://docs.google.com/presentation/d/1cxjmg-13qrDR7ehXTNmornHSJIHdGzcbg2lyGUIgdhs/)
 
+[Aula 8 - Object Tracking](https://docs.google.com/presentation/d/1vXUhKcZLcB2-arT-QmcfyTdMP8XcFcA1/)
+
+[Aula 9 - Segmentation](https://docs.google.com/presentation/d/18awi4gQXISO29_qSgUIRa2ecFkizpXqsGLImuEjSZbw/)
+
+[Aula 10 - Generative Models](https://docs.google.com/presentation/d/1uwCiBRQkTbsuXC0SaF1N8m1pI0JlJXlc/)
+
+[Aula 11 - Visual Attention](https://docs.google.com/presentation/d/1mMl6rkz7tf7uh2JUW8o12NvFTRssOexw/)
+
+[Aula 12 - Camera Model](https://docs.google.com/presentation/d/1_R9m0i-GwZvrkXErYNRPBrsOSXm8OMbI/)
+
+[Aula 13 - Stereo Vision](https://docs.google.com/presentation/d/1TEOHsFiSqUHxMV2aHtfCCUEWXq-5rMs_/)
+
+[Aula 14 - Visual Odometry](https://docs.google.com/presentation/d/11Scn_ovdyHuhs3v8t0ts6FGJMyrRHtJ5/)
+
 ## Laboratórios
 
 Estão na pasta `notebooks`.
@@ -35,6 +49,18 @@ Estão na pasta `notebooks`.
 [Laboratório 5 - CNNs: Implementing a FastAI like interface](notebooks/cnns_lab05/cnns_lab05.ipynb)
 
 [Laboratório 6 - nanoYOLO: Our very own nano YOLO](notebooks/yolo_lab06/yolo_lab06.ipynb)
+
+[Laboratório 7 - Kalman Filter: A Tracking Model](notebooks/tracking_lab07/tracking_lab07.ipynb)
+
+[Laboratório 8 - Segmentation: DeepLab + MobileNetV3](notebooks/segmenta_lab08/segmenta_lab08.ipynb)
+
+[Laboratório 9 - GAN: Generative Adversarial Networks](notebooks/gan_lab09/gan_lab09.ipynb)
+
+[Laboratório 10 - Attention: CNN Spatial and Self-Attn](notebooks/attention_lab10/attention_lab10.ipynb)
+
+[Laboratório 11 - Camera Model: Calibration and Stereo](notebooks/camera_lab11/camera_lab11.ipynb)
+
+[Laboratório 12 - Odometry: Classical Mono and Stereo](notebooks/odometria_lab12/odometria_lab12.ipynb)
 
 They can be downloaded and executed locally with our docker containers (which run Jupyter Notebooks classic) or open in Google Colab in the browser.
 
